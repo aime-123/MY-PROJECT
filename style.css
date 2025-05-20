@@ -1,4 +1,5 @@
- body {
+
+body {
   font-family: Arial, sans-serif;
   background:rgb(109, 107, 107);
   display: flex;
@@ -16,7 +17,7 @@
   box-shadow: rgb(15, 15, 15);
 }
 h1{
-  background-color: #19191a;
+  background-color: #8c8c96;
   color: white;
   padding: 10%;
 }
@@ -88,11 +89,5 @@ button:hover {
             transition: background-color 0.3s, transform 0.2s;
             color: rgb(83, 24, 24);
         }
-        .button:hover {
-            background-color: #06090a;
-            transform: scale(1.1);
-        }
-        .button:active {
-            transform: scale(0.95);
-        }
+        
         
